@@ -394,6 +394,7 @@ public class KProgressHUD {
             mLabelText = (TextView) findViewById(com.kaopiz.kprogresshud.R.id.label);
             setLabel(mLabel, mLabelColor);
             mDetailsText = (TextView) findViewById(com.kaopiz.kprogresshud.R.id.details_label);
+	    	mDetailsText.setGravity(Gravity.CENTER);
             setDetailsLabel(mDetailsLabel, mDetailColor);
         }
 
